@@ -12,8 +12,8 @@ processor = AutoProcessor.from_pretrained("suno/bark-small")
 model = BarkModel.from_pretrained("suno/bark-small").to(device)
 
 # 3. Definir o texto de entrada e a voz em Português
-texto = "Olá! Este é um exemplo de síntese de fala utilizando modelos de aprendizado profundo em Python."
-voz_preset = "v2/pt_speaker_1"  # Voz pré-configurada em Português
+texto = "Olá! Este é um exemplo de síntese de fala utilizando modelos de aprendizado básicos em Python."
+voz_preset = "v2/pt_speaker_4"  # Voz pré-configurada em Português
 
 print("🔊 Gerando o áudio a partir do texto...")
 
